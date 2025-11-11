@@ -1,0 +1,431 @@
+/* mishima intro start */
+body {
+    padding: 0;
+    margin: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+    line-height: 1;
+    width: 100%;
+}
+
+.msm_bg {
+    background-image: url(/assets/img/msm_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.msm_ctnr {
+    max-width: 1120px;
+    margin-inline: auto;
+    padding: 0 20px 140px;
+}
+
+.msm_intro_ttl {
+    width: 100%;
+    height: 157px;
+    margin: 0;
+    margin-inline: auto;
+}
+
+.msm_grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) 56.5%;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.msm_intro_ttl_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.msm_intro_info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.msm_info_ttl {
+    width: 100%;
+}
+
+.msm_info_ttl_img {
+    width: 100%;
+    height: 100%;
+}
+
+.msm_info_para {
+    font-size: 1rem;
+    font-family: "BIZ UDPGothic";
+    color: rgb(51, 51, 51);
+    line-height: 2.125;
+    text-align: left;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+    margin-bottom: 40px;
+    }
+
+.msm_intro_btn {
+    background-color: #10789f;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: "Yu Gothic";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+
+    border: none;
+    border-radius: 30px;
+    padding: 22px 42px;
+    position: relative;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.35);
+}
+
+.msm_intro_btn::after {
+    content: "";
+    background-image: url(/assets/img/white_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+
+.msm_img_ctnr {
+    align-self: start;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.msm_intro_img {
+    width: 100%;
+    max-height: 423px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sp {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    .msm_grid {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        row-gap: 40px;
+    }
+
+    .msm_intro_ttl {
+        grid-column: unset;
+    }
+
+    .msm_info_para {
+        margin-bottom: 30px;
+    }
+}
+/* mishima intro end */
+
+/* map sec start */
+.map_sec {
+    margin-top: -7%;
+    max-width: 1120px;
+    margin-inline: auto;
+    padding: 120px 20px;
+}
+
+.map_grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 62%;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.map_grid_ttl {
+    max-width: 67%;
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: end;
+    align-self: end;
+}
+
+.map_grid_ttl_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.map_img {
+    width: 100%;
+}
+
+.map_cell {
+    grid-area: 1 / 1 / 3 / 2;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.map_cell_map {
+    width: 179%;
+    height: 100%;
+
+    position: absolute;
+    top: -22.5%;
+    left: 30px;
+}
+
+.map_cell::after {
+    content: "";
+    background-image: url(/assets/img/map_family_house.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48%;
+    height: 24%;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.map_cards_grid {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.map_card {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.map_card_img {
+    width: 100%;
+    height: 182px;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.map_card_bg {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 25px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -3px;
+}
+
+.blue_map {
+    background-color: #ddf4ff;
+}
+
+.green_map {
+    background-color: #eef4d3;
+}
+
+.pink_map {
+    background-color: #fce6ed;
+}
+
+.yellow_map {
+    background-color: #fef1db;
+}
+
+.map_card_btn {
+    margin-top: -27px;
+    border-radius: 25px;
+    border: 1px solid #f283a5;
+    max-width: 260px;
+    width: 100%;
+
+    font-size: 1.25rem;
+    font-family: "BIZ UDPGothic";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 2.6;
+    text-align: center;
+    justify-self: center;
+    position: relative;
+}
+
+.map_card_btn::after {
+    width: 22px;
+    height: 22px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.blue_arrow_btn {
+    border: 2px solid #8dd9ff;
+}
+
+.green_arrow_btn {
+    border: 2px solid #d3e874;
+}
+
+.pink_arrow_btn {
+    border: 2px solid #f283a5;
+}
+
+.yellow_arrow_btn {
+    border: 2px solid #f8b74d;
+}
+
+.blue_arrow_btn::after {
+    content: "";
+    background-image: url(/assets/img/blue_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.green_arrow_btn::after {
+    content: "";
+    background-image: url(/assets/img/green_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pink_arrow_btn::after {
+    content: "";
+    background-image: url(/assets/img/pink_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.yellow_arrow_btn::after {
+    content: "";
+    background-image: url(/assets/img/yellow_arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.map_card_para {
+    font-size: 1rem;
+    font-family: "BIZ UDPGothic";
+    color: rgb(51, 51, 51);
+    line-height: 1.75;
+    text-align: left;
+    margin: 0;
+}
+
+@media screen and (min-width: 2001px) {
+    .map_sec {
+    margin-top: -4%;
+    max-width: 1120px;
+    margin-inline: auto;
+    padding: 120px 20px;
+}
+}
+
+@media screen and (max-width: 1080px) {
+    .map_card_btn {
+        text-align: start;
+        padding-left: 10px;
+        line-height: 2;
+    }
+
+    .map_card_btn::after {
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map_sec {
+        padding: 20px;
+    }
+
+    .map_grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .map_grid_ttl {
+        grid-area: unset;
+        max-width: 350px;
+        width: 100%;
+        justify-self: center;
+    }
+
+    .map-cell {
+        grid-area: unset;
+    }
+
+    .map_cards_grid {
+        grid-area: unset;
+    }
+
+    .map_cell {
+        margin-top: -30px;
+        margin-bottom: -10px;
+        grid-area: unset;
+        width: 100%;
+        height: 521px;
+    }
+
+    .map_cell_map_sp {
+        max-width: 335px;
+        width: 100%;
+        height: 100%;
+        position: static;
+    }
+
+    .map_cell::after {
+        width: 123px;
+        height: 163px;
+        right: 0;
+        bottom: 31px;
+    }
+
+    .map_cards_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map_card_btn {
+        line-height: 2.5;
+        text-align: center;
+    }
+
+    .map_card_btn::after  {
+        right: 20px;
+    }
+
+    .map_card_para {
+        margin-top: 10px;
+    }
+}
+
+/* map sec end */
+
+
