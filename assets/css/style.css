@@ -580,6 +580,10 @@ body {
     .places_img_ctnr {
         max-height: 95px;
     }
+
+    .places_img {
+        border-radius: 6px;
+    }
 }
 /* mishima places end */
 
@@ -617,6 +621,10 @@ body {
     position: relative;
 }
 
+.edu_small_img_grid {
+    grid-template-columns: 37% auto;
+}
+
 @media screen and (max-width: 768px) {
     .education_grid {
         grid-template-columns: 1fr;
@@ -627,5 +635,9 @@ body {
     .education_sec {
         margin-top: 0;
     }
+
+    .edu_small_img_grid {
+    grid-template-columns: 45% auto;
+}
 }
 /* mishima education end */
