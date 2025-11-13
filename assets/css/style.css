@@ -1,7 +1,7 @@
 /* mishima transportation start */
 /* .tsp_bg {
 
-    background: url(/assets/img/transportation_map.png);
+    background: url(../img/transportation_map.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right -220px bottom 75px;
@@ -34,7 +34,7 @@
 
 .tsp_grid::after {
     content: '';
-    background-image: url(/assets/img/transportation_map.png);
+    background-image: url(../img/transportation_map.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -196,7 +196,7 @@ body {
 
 .msm_bg::before {
     content: "";
-    background: url(/assets/img/msm_background.png);
+    background: url(../img/msm_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -215,7 +215,7 @@ body {
 
 .map_bg::before {
     content: "";
-    background: url(/assets/img/msm_background.png);
+    background: url(../img/msm_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -303,7 +303,7 @@ body {
 
 .msm_intro_btn::after {
     content: "";
-    background-image: url(/assets/img/white_arrow.png);
+    background-image: url(../img/white_arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 22px;
@@ -347,7 +347,7 @@ body {
     }
 
     .msm_bg::before {
-        background: url(/assets/img/msm_background_sp.png);
+        background: url(../img/msm_background_sp.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -359,7 +359,7 @@ body {
     }
 
     .map_bg::before {
-        background: url(/assets/img/msm_background_sp.png);
+        background: url(../img/msm_background_sp.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -440,7 +440,7 @@ body {
 
 .map_cell::after {
     content: "";
-    background-image: url(/assets/img/map_family_house.png);
+    background-image: url(../img/map_family_house.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 48%;
@@ -547,28 +547,28 @@ body {
 
 .blue_arrow_btn::after {
     content: "";
-    background-image: url(/assets/img/blue_arrow.png);
+    background-image: url(../img/blue_arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .green_arrow_btn::after {
     content: "";
-    background-image: url(/assets/img/green_arrow.png);
+    background-image: url(../img/green_arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .pink_arrow_btn::after {
     content: "";
-    background-image: url(/assets/img/pink_arrow.png);
+    background-image: url(../img/pink_arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .yellow_arrow_btn::after {
     content: "";
-    background-image: url(/assets/img/yellow_arrow.png);
+    background-image: url(../img/yellow_arrow.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -764,7 +764,7 @@ body {
 
 .education_bg::before {
     content: "";
-    background: url(/assets/img/msm_background.png);
+    background: url(../img/msm_background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
